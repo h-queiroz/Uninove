@@ -1,0 +1,10 @@
+INFO: Platform: win32
+INFO: Version Info: v0.3.0
+DEBUG: Log Path: cp.log
+DEBUG: command: ['python', 'C:\\xampp\\htdocs\\Uninove\\9.5\\style.css']
+DEBUG: file: None
+DEBUG: pause: True
+DEBUG: repl: python
+DEBUG: args: ['C:\\xampp\\htdocs\\Uninove\\9.5\\style.css']
+INFO: return code: 1 (0x1)
+INFO: elapsed time: 0.103660
