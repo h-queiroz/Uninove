@@ -1,3 +1,9 @@
+@font-face{
+  font-family: "DK Midnight Chalker";
+  src: url("DK Midnight Chalker.otf") format("opentype");
+}
+
+
 :root{
   --color-black: #151924;
   --color-yellow: #FFE10A;
@@ -16,6 +22,7 @@ body{
   /* background: rgb(37,40,77);
   background: linear-gradient(115deg, rgba(37,40,77,1) 0%, rgba(53,53,53,1) 100%); */
   background-image: url("assets/background.webp");
+  background-image: url("assets/background2.jpg");
   margin: 0;
   padding: 0;
   border: 0;
@@ -50,6 +57,7 @@ nav header ul li{
 }
 
 nav header ul li a{
+  color: var(--color-white);
   font-size: 25px;
   text-decoration: none;
   padding: 10px 17px;
@@ -75,6 +83,7 @@ main h1, main h3{
 }
 
 main h3{
+  font-family: "DK Midnight Chalker";
   font-size: 3.5em;
   letter-spacing: 3px;
   top: -40px;
@@ -87,6 +96,8 @@ main h1{
 }
 
 main h1 span{
+  font-family: "DK Midnight Chalker";
+  margin-left: 5px;
   display: inline-block;
   animation: letter-tilt 2s ease-in-out infinite;
   color: var(--color-yellow);
